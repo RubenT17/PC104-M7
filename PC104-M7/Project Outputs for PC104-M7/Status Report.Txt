@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [PC104-M7.PrjPcb]
+   Generated File[PC104_M7_4L.TXT]
+   Generated File[PC104_M7_4L.LDP]
+   Generated File[PC104_M7_4L.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 20:09:18 On 20/11/2024

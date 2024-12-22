@@ -16,7 +16,7 @@ AllowPortNetNames=0
 AllowSheetEntryNetNames=1
 AppendSheetNumberToLocalNets=0
 NetlistSinglePinNets=0
-DefaultConfiguration=Default Configuration
+DefaultConfiguration=Sources
 UserID=0xFFFFFFFF
 DefaultPcbProtel=1
 DefaultPcbPcad=0
@@ -24,20 +24,19 @@ ReorderDocumentsOnCompile=1
 NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
 AutoSheetNumbering=1
-AutoCrossReferences=0
+AutoCrossReferences=1
 NewIndexingOfSheetSymbols=1
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-IsProjectConflictPreventionWarningsEnabled=1
-ConstraintManagerFlow=1
+IsProjectConflictPreventionWarningsEnabled=0
+ConstraintManagerFlow=0
 IsVirtualBomDocumentRemoved=0
-OutputPath=Project Outputs
-LogFolderPath=..\Panel Templates\Project Logs
+OutputPath=
+LogFolderPath=
 ManagedProjectGUID=
-Template=dxp://VaultExplorer:Navigate_URL?VaultGUID=750DBC33-55C3-41DE-8355-E9D22A897630&ItemGUID=72D1FB17-1DF7-4FE2-A7D9-5612D8243770&RevisionGUID=CECBF68F-0821-453E-9820-11EE07F0CC90&"MainFilename=PCB_Project1.PrjPCB"
 IncludeDesignInRelease=0
 CrossRefSheetStyle=1
 CrossRefLocationStyle=1
@@ -45,15 +44,13 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-XNetsSourceDestinationPrefixes=U, X
-XNetsDiscretesPrefixes=R, L, C, VD
 
 [Preferences]
 PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=ActiveBOM.BomDoc
+DocumentPath=AOCS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -63,13 +60,30 @@ AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document2]
+DocumentPath=BoardConnectors.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document3]
 DocumentPath=BoardTemplate.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -84,248 +98,10 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=JMAHBNMV
-
-[Document3]
-DocumentPath=Parts\RT_PC104-M7.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=TAPQYQNC
+DocumentUniqueId=
 
 [Document4]
-DocumentPath=Parts\RT_PC104-M7.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=TPTSLKQT
-
-[Document5]
-DocumentPath=MCU.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=0
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=CJHNTGTK
-
-[Document6]
-DocumentPath=BoardConnectors.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=YEMYNXPJ
-
-[Document7]
-DocumentPath=AOCS.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=2
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=KYQGNCQS
-
-[Document8]
 DocumentPath=CAN.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=3
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=VMVWSKCC
-
-[Document9]
-DocumentPath=TempSensors.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=4
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=HYRZVFQL
-
-[Document10]
-DocumentPath=MemoryStorage.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=5
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=ZXWOCGTC
-
-[Document11]
-DocumentPath=ExternalConnectors.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=6
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=OAYAOXWE
-
-[Document12]
-DocumentPath=RS485.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=7
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=KJLLBAWL
-
-[Document13]
-DocumentPath=GENERAL.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=8
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=QISCOBSB
-
-[Document14]
-DocumentPath=Power.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=9
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=OOLGTOIN
-
-[Document15]
-DocumentPath=FPGA.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=10
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=UQKSXMKE
-
-[Document16]
-DocumentPath=RF.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=11
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=GYEDBLVV
-
-[Document17]
-DocumentPath=PC104-M7.Annotation
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -341,7 +117,109 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document18]
+[Document5]
+DocumentPath=Connectors.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document6]
+DocumentPath=ExternalConnectors.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document7]
+DocumentPath=FPGA.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document8]
+DocumentPath=GENERAL.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document9]
+DocumentPath=MCU.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document10]
+DocumentPath=MemoryStorage.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document11]
 DocumentPath=PC104_M7_4L.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -358,7 +236,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UYZPVMYV
 
-[Document19]
+[Document12]
 DocumentPath=PC104-M7_6L.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -373,149 +251,204 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=UYZPVMYU
+DocumentUniqueId=
 
-[Parameter1]
-Name=CAGE_CODE
-Value=?????
+[Document13]
+DocumentPath=Power.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
-[Parameter2]
-Name=CONTRACT_NUMBER
-Value=<CONTRACT NO>
+[Document14]
+DocumentPath=RF.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
-[Parameter3]
-Name=DOC_NO_ASSY_DWG
-Value=<ASSY DWG NO>
+[Document15]
+DocumentPath=RS485.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
-[Parameter4]
-Name=DOC_NO_BOM
-Value=<BOM DOC NO>
+[Document16]
+DocumentPath=TempSensors.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
-[Parameter5]
-Name=DOC_NO_FAB_DWG
-Value=<FAB DWG NO>
+[GeneratedDocument1]
+DocumentPath=Project Outputs for PC104-M7\PC104_M7_4L.DRR
+DItemRevisionGUID=
 
-[Parameter6]
-Name=DOC_NO_SCH_DWG
-Value=<SCH DWG NO>
+[GeneratedDocument2]
+DocumentPath=Project Outputs for PC104-M7\PC104_M7_4L.EXTREP
+DItemRevisionGUID=
 
-[Parameter7]
-Name=PCB_2_DEC_TOL
-Value=+/-.01
+[GeneratedDocument3]
+DocumentPath=Project Outputs for PC104-M7\PC104_M7_4L.GBL
+DItemRevisionGUID=
 
-[Parameter8]
-Name=PCB_3_DEC_TOL
-Value=+/-.010
+[GeneratedDocument4]
+DocumentPath=Project Outputs for PC104-M7\PC104_M7_4L.GBP
+DItemRevisionGUID=
 
-[Parameter9]
-Name=PCB_ANG_TOL
-Value=+/-1/2
+[GeneratedDocument5]
+DocumentPath=Project Outputs for PC104-M7\PC104_M7_4L.GBS
+DItemRevisionGUID=
 
-[Parameter10]
-Name=PCB_ASSEMBLY_NO
-Value=<PCB ASSY NO>
+[GeneratedDocument6]
+DocumentPath=Project Outputs for PC104-M7\PC104_M7_4L.GD1
+DItemRevisionGUID=
 
-[Parameter11]
-Name=PCB_CHECKER
-Value=- -----
+[GeneratedDocument7]
+DocumentPath=Project Outputs for PC104-M7\PC104_M7_4L.GG1
+DItemRevisionGUID=
 
-[Parameter12]
-Name=PCB_CHECKER_APP_DATE
-Value=--/--/----
+[GeneratedDocument8]
+DocumentPath=Project Outputs for PC104-M7\PC104_M7_4L.GM
+DItemRevisionGUID=
 
-[Parameter13]
-Name=PCB_DESIGNER
-Value=- -----
+[GeneratedDocument9]
+DocumentPath=Project Outputs for PC104-M7\PC104_M7_4L.GM1
+DItemRevisionGUID=
 
-[Parameter14]
-Name=PCB_DESIGNER_APP_DATE
-Value=--/--/----
+[GeneratedDocument10]
+DocumentPath=Project Outputs for PC104-M7\PC104_M7_4L.GM2
+DItemRevisionGUID=
 
-[Parameter15]
-Name=PCB_DWG_NO
-Value=<PCB DWG NO>
+[GeneratedDocument11]
+DocumentPath=Project Outputs for PC104-M7\PC104_M7_4L.GM4
+DItemRevisionGUID=
 
-[Parameter16]
-Name=PCB_ENGINEER
-Value=- -----
+[GeneratedDocument12]
+DocumentPath=Project Outputs for PC104-M7\PC104_M7_4L.GM5
+DItemRevisionGUID=
 
-[Parameter17]
-Name=PCB_ENGINEER_APP_DATE
-Value=--/--/----
+[GeneratedDocument13]
+DocumentPath=Project Outputs for PC104-M7\PC104_M7_4L.GM6
+DItemRevisionGUID=
 
-[Parameter18]
-Name=PCB_PART_NUMBER
-Value=<PCB PN>
+[GeneratedDocument14]
+DocumentPath=Project Outputs for PC104-M7\PC104_M7_4L.GM11
+DItemRevisionGUID=
 
-[Parameter19]
-Name=PCB_REV
-Value=A
+[GeneratedDocument15]
+DocumentPath=Project Outputs for PC104-M7\PC104_M7_4L.GM13
+DItemRevisionGUID=
 
-[Parameter20]
-Name=SCH_REV
-Value=A
+[GeneratedDocument16]
+DocumentPath=Project Outputs for PC104-M7\PC104_M7_4L.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for PC104-M7\PC104_M7_4L.GP1
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for PC104-M7\PC104_M7_4L.GP2
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for PC104-M7\PC104_M7_4L.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for PC104-M7\PC104_M7_4L.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for PC104-M7\PC104_M7_4L.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for PC104-M7\PC104_M7_4L.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for PC104-M7\PC104_M7_4L.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for PC104-M7\PC104_M7_4L.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for PC104-M7\PC104_M7_4L.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for PC104-M7\PC104_M7_4L.REP
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for PC104-M7\PC104_M7_4L.TXT
+DItemRevisionGUID=
 
 [Configuration1]
-Name=Default Configuration
-ParameterCount=0
-ConstraintFileCount=0
-ReleaseItemId=
-Variant=[No Variations]
-OutputJobsCount=0
-ContentTypeGUID=B953ABBB-897D-493B-96D2-85DABE1896C4
-ConfigurationType=Custom
-
-[Configuration2]
 Name=Sources
 ParameterCount=0
 ConstraintFileCount=0
 ReleaseItemId=
 Variant=[No Variations]
-OutputJobsCount=1
-DocumentReferenceClass1=DocumentReference
-OutputJobFileName1=
+OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
-
-[Configuration3]
-Name=Fabrication
-ParameterCount=0
-ConstraintFileCount=0
-ReleaseItemId=
-Variant=[No Variations]
-OutputJobsCount=1
-DocumentReferenceClass1=DocumentReference
-OutputJobFileName1=
-ContentTypeGUID=0C520D2A-E60C-11DF-B822-12313F0024A2
-ConfigurationType=Fabrication
-
-[Configuration4]
-Name=Assembly
-ParameterCount=0
-ConstraintFileCount=0
-ReleaseItemId=
-Variant=[No Variations]
-OutputJobsCount=1
-DocumentReferenceClass1=DocumentReference
-OutputJobFileName1=
-ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
-ConfigurationType=Assembly
-
-[Generic_EDE]
-OutputDir=Project Outputs
 
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=HP LaserJet Pro MFP M125-M126 PCLmS
+TargetPrinter=Brother DCP-9015CDW
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-Configuration1_Name1=ForceUpdateSettings
-Configuration1_Item1=False
 OutputType2=CalayNetlist
 OutputName2=Calay Netlist
 OutputDocumentPath2=
@@ -596,35 +529,33 @@ OutputName17=SciCards Netlist
 OutputDocumentPath17=
 OutputVariantName17=
 OutputDefault17=0
-OutputType18=TangoNetlist
-OutputName18=Tango Netlist
+OutputType18=SIMetrixNetlist
+OutputName18=SIMetrix
 OutputDocumentPath18=
 OutputVariantName18=
 OutputDefault18=0
-OutputType19=TelesisNetlist
-OutputName19=Telesis Netlist
+OutputType19=SIMPLISNetlist
+OutputName19=SIMPLIS
 OutputDocumentPath19=
 OutputVariantName19=
 OutputDefault19=0
-OutputType20=WireListNetlist
-OutputName20=WireList Netlist
+OutputType20=TangoNetlist
+OutputName20=Tango Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-Configuration20_Name1=ForceUpdateSettings
-Configuration20_Item1=False
-OutputType21=XSpiceNetlist
-OutputName21=XSpice Netlist
+OutputType21=TelesisNetlist
+OutputName21=Telesis Netlist
 OutputDocumentPath21=
 OutputVariantName21=
 OutputDefault21=0
-OutputType22=SIMetrixNetlist
-OutputName22=SIMetrix
+OutputType22=WireListNetlist
+OutputName22=WireList Netlist
 OutputDocumentPath22=
 OutputVariantName22=
 OutputDefault22=0
-OutputType23=SIMPLISNetlist
-OutputName23=SIMPLIS
+OutputType23=XSpiceNetlist
+OutputName23=Mixed Sim Netlist
 OutputDocumentPath23=
 OutputVariantName23=
 OutputDefault23=0
@@ -632,7 +563,7 @@ OutputDefault23=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=HP LaserJet Pro MFP M125-M126 PCLmS
+TargetPrinter=Brother DCP-9015CDW
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
@@ -653,82 +584,82 @@ OutputDefault3=0
 [OutputGroup3]
 Name=Documentation Outputs
 Description=
-TargetPrinter=Virtual Printer
+TargetPrinter=Brother DCP-9015CDW
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Composite
 OutputName1=Composite Drawing
 OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType2=PCB 3D Print
-OutputName2=PCB 3D Prints
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType2=Harness Layout Drawing Print
+OutputName2=Harness Layout Drawing Prints
 OutputDocumentPath2=
-OutputVariantName2=[No Variations]
+OutputVariantName2=
 OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType3=PCB Print
-OutputName3=PCB Prints
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType3=Harness Wiring Diagram Print
+OutputName3=Harness Wiring Diagram Prints
 OutputDocumentPath3=
-OutputVariantName3=[No Variations]
+OutputVariantName3=
 OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType4=Schematic Print
-OutputName4=Schematic Prints
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType4=PCB 3D Print
+OutputName4=PCB 3D Print
 OutputDocumentPath4=
-OutputVariantName4=
+OutputVariantName4=[No Variations]
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType5=SimView Print
-OutputName5=SimView Prints
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType5=PCB 3D Video
+OutputName5=PCB 3D Video
 OutputDocumentPath5=
-OutputVariantName5=
+OutputVariantName5=[No Variations]
 OutputDefault5=0
-PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType6=PCB 3D Video
-OutputName6=PCB 3D Video
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType6=PCB Print
+OutputName6=PCB Prints
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
-PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType7=PCBLIB Print
-OutputName7=PCBLIB Prints
+PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType7=PCBDrawing
+OutputName7=Draftsman
 OutputDocumentPath7=
 OutputVariantName7=[No Variations]
 OutputDefault7=0
-PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType8=Report Print
-OutputName8=Report Prints
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType8=PCBLIB Print
+OutputName8=PCBLIB Prints
 OutputDocumentPath8=
-OutputVariantName8=
+OutputVariantName8=[No Variations]
 OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType9=PDF3D
 OutputName9=PDF3D
 OutputDocumentPath9=
 OutputVariantName9=[No Variations]
 OutputDefault9=0
-PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType10=PCBDrawing
-OutputName10=Draftsman
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType10=PDF3D MBA
+OutputName10=PDF3D MBA
 OutputDocumentPath10=
-OutputVariantName10=[No Variations]
+OutputVariantName10=
 OutputDefault10=0
-PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType11=PDF3D MBA
-OutputName11=PDF3D MBA
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType11=Report Print
+OutputName11=Report Prints
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType12=Harness Layout Drawing Print
-OutputName12=Harness Layout Drawing Prints
+OutputType12=Schematic Print
+OutputName12=Schematic Prints
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
 PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType13=Harness Wiring Diagram Print
-OutputName13=Harness Wiring Diagram Prints
+OutputType13=SimView Print
+OutputName13=SimView Prints
 OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
@@ -737,28 +668,24 @@ PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=HP LaserJet Pro MFP M125-M126 PCLmS
+TargetPrinter=Brother DCP-9015CDW
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Test Points For Assembly
-OutputName1=Test Point Report
+OutputType1=Assembly
+OutputName1=Assembly Drawings
 OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType2=Pick Place
 OutputName2=Generates pick and place files
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
-Configuration2_Name1=ForceUpdateSettings
-Configuration2_Item1=False
-Configuration2_Name2=OutputConfigurationParameter1
-Configuration2_Item2=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=True|GenerateTextFormat=False|ShowUnits=True|Separator=.|ExcludeFilterParam=False|IncludeVariations=False|IncludeStandardNoBOM=False|Filter= |FilterActive=False|YFlip=False|DifferentFootprints=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:True,Sort:None,Position:10|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:None,Position:2|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:8|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:3|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:4|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:9|Column#9=Name:Description,Fixed:True,Metric:False,Visible:True,Sort:Descending,SortIndex:0,Position:1|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:11|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15|Column#17=Name:Arrow Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16,Type:0|Column#18=Name:Manufacturer_Part_Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:21,Type:0|Column#19=Name:Mouser Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:22,Type:0|Column#20=Name:Mouser Price/Stock,Fixed:False,Metric:False,Visible:False,Sort:None,Position:23,Type:0|Column#21=Name:Height,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19,Type:0|Column#22=Name:Datasheet Link,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18,Type:0|Column#23=Name:Arrow Price/Stock,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17,Type:0|Column#24=Name:Manufacturer_Name,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20,Type:0|DocumentPath=C:\Users\atgru\OneDrive\Documentos\GitHub\RT-IS\RT-IS\RT-IS.PcbDoc
-OutputType3=Assembly
-OutputName3=Assembly Drawings
+OutputType3=Test Points For Assembly
+OutputName3=Test Point Report
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType4=Wire Bonding Table
 OutputName4=Wire Bonding Table Report
 OutputDocumentPath4=
@@ -768,63 +695,118 @@ OutputDefault4=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=HP LaserJet Pro MFP M125-M126 PCLmS
+TargetPrinter=Brother DCP-9015CDW
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=CompositeDrill
-OutputName1=Composite Drill Drawing
+OutputType1=NC Drill
+OutputName1=NC Drill Files
 OutputDocumentPath1=
-OutputVariantName1=[No Variations]
+OutputVariantName1=
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType2=Drill
-OutputName2=Drill Drawing/Guides
+Configuration1_Name1=ForceUpdateSettings
+Configuration1_Item1=False
+Configuration1_Name2=OutputConfigurationParameter1
+Configuration1_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|GenerateSeparateViaTypeFiles=False|GenerateToolsByDrillSymbols=False|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressLeadingZeroes|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+OutputType2=Mask
+OutputName2=Solder/Paste Mask Prints
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType3=Mask
-OutputName3=Solder/Paste Mask Prints
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType3=IPC2581
+OutputName3=IPC-2581 Files
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType4=Final
-OutputName4=Final Artwork Prints
+Configuration3_Name1=ForceUpdateSettings
+Configuration3_Item1=False
+Configuration3_Name2=OutputConfigurationParameter1
+Configuration3_Item2=Record=IPC2581View|IPC2581Version=B|MeasurementSystem=Metric|FloatingPointPrecision=6|IsWiseSupport=False|MergeNetTieNets=False|OEMDesignNumberRef=DesignItemID|DifferentFootprints=False|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+OutputType4=Test Points
+OutputName4=Test Point Report
 OutputDocumentPath4=
-OutputVariantName4=[No Variations]
+OutputVariantName4=
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType5=Test Points
-OutputName5=Test Point Report
+OutputType5=Plane
+OutputName5=Power-Plane Prints
 OutputDocumentPath5=
-OutputVariantName5=
+OutputVariantName5=[No Variations]
 OutputDefault5=0
-OutputType6=NC Drill
-OutputName6=NC Drill Files
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType6=ODB
+OutputName6=ODB++ Files
 OutputDocumentPath6=
-OutputVariantName6=
+OutputVariantName6=[No Variations]
 OutputDefault6=0
 Configuration6_Name1=ForceUpdateSettings
 Configuration6_Item1=False
 Configuration6_Name2=OutputConfigurationParameter1
-Configuration6_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|GenerateSeparateViaTypeFiles=False|GenerateToolsByDrillSymbols=False|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes|DocumentPath=C:\Users\atgru\OneDrive\Documentos\GitHub\RT-IS\RT-IS\RT-IS_M7_L4.PcbDoc
-OutputType7=ODB
-OutputName7=ODB++ Files
+Configuration6_Item2=Compression_None=True|Compression_tar_tgz=True|Compression_zip=True|DifferentFootprints=False|ExportPositivePlaneLayers=False|GenerateDRCRulesFile=False|IncludeUnconnectedMidLayerPads=False|IncludeVariantsData=False|IntentionalShorts=False|MergeNetTieNets=False|ObjsInsideBoardOutlineOnly=False|ODBProfileLayer=-1000|ODBProfileLayerV7=-1|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBottomLayerPlot=True|PlotBottomOverlayPlot=True|PlotBottomPastePlot=True|PlotBottomSolderPlot=True|PlotCounterHolesPairs=False|PlotDrillDrawingPairs=False|PlotDrillGuidePairs=False|PlotInternalPlane10Plot=False|PlotInternalPlane11Plot=False|PlotInternalPlane12Plot=False|PlotInternalPlane13Plot=False|PlotInternalPlane14Plot=False|PlotInternalPlane15Plot=False|PlotInternalPlane16Plot=False|PlotInternalPlane1Plot=True|PlotInternalPlane2Plot=True|PlotInternalPlane3Plot=False|PlotInternalPlane4Plot=False|PlotInternalPlane5Plot=False|PlotInternalPlane6Plot=False|PlotInternalPlane7Plot=False|PlotInternalPlane8Plot=False|PlotInternalPlane9Plot=False|PlotKeepOutLayerPlot=False|PlotMechanical10Plot=False|PlotMechanical11Plot=False|PlotMechanical12Plot=False|PlotMechanical13Plot=False|PlotMechanical14Plot=False|PlotMechanical15Plot=False|PlotMechanical16Plot=False|PlotMechanical1Plot=False|PlotMechanical2Plot=False|PlotMechanical3Plot=False|PlotMechanical4Plot=False|PlotMechanical5Plot=False|PlotMechanical6Plot=False|PlotMechanical7Plot=False|PlotMechanical8Plot=False|PlotMechanical9Plot=False|PlotMicroViasPairs=False|PlotMidLayer10Plot=False|PlotMidLayer11Plot=False|PlotMidLayer12Plot=False|PlotMidLayer13Plot=False|PlotMidLayer14Plot=False|PlotMidLayer15Plot=False|PlotMidLayer16Plot=False|PlotMidLayer17Plot=False|PlotMidLayer18Plot=False|PlotMidLayer19Plot=False|PlotMidLayer1Plot=False|PlotMidLayer20Plot=False|PlotMidLayer21Plot=False|PlotMidLayer22Plot=False|PlotMidLayer23Plot=False|PlotMidLayer24Plot=False|PlotMidLayer25Plot=False|PlotMidLayer26Plot=False|PlotMidLayer27Plot=False|PlotMidLayer28Plot=False|PlotMidLayer29Plot=False|PlotMidLayer2Plot=False|PlotMidLayer30Plot=False|PlotMidLayer3Plot=False|PlotMidLayer4Plot=False|PlotMidLayer5Plot=False|PlotMidLayer6Plot=False|PlotMidLayer7Plot=False|PlotMidLayer8Plot=False|PlotMidLayer9Plot=False|PlotNPTHPairs=False|PlotPTHPairs=False|PlotTopLayerPlot=True|PlotTopOverlayPlot=True|PlotTopPastePlot=True|PlotTopSolderPlot=True|PlotViaTypeDrillDrawingPairs=False|PlotViaTypeDrillGuidePairs=False|PlotViaTypeDrillPairs=False|Record=ODBView|ToolsByDrillSymbols=False|Units=Metric|Version=8.1|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+OutputType7=Drill
+OutputName7=Drill Drawing/Guides
 OutputDocumentPath7=
 OutputVariantName7=[No Variations]
 OutputDefault7=0
-OutputType8=Board Stack Report
-OutputName8=Report Board Stack
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.34|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration7_Name1=ForceUpdateSettings
+Configuration7_Item1=False
+Configuration7_Name2=OutputConfigurationParameter1
+Configuration7_Item2=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration7_Name3=OutputConfigurationParameter2
+Configuration7_Item3=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Drill Drawing For (Top Layer - Bottom Layer)|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration7_Name4=OutputConfigurationParameter3
+Configuration7_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=DrillDrawing|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration7_Name5=OutputConfigurationParameter4
+Configuration7_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration7_Name6=OutputConfigurationParameter5
+Configuration7_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration7_Name7=OutputConfigurationParameter6
+Configuration7_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration7_Name8=OutputConfigurationParameter7
+Configuration7_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration7_Name9=OutputConfigurationParameter8
+Configuration7_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical5|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration7_Name10=OutputConfigurationParameter9
+Configuration7_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration7_Name11=OutputConfigurationParameter10
+Configuration7_Item11=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration7_Name12=OutputConfigurationParameter11
+Configuration7_Item12=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration7_Name13=OutputConfigurationParameter12
+Configuration7_Item13=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration7_Name14=OutputConfigurationParameter13
+Configuration7_Item14=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=1|Mirror=False|Name=Drill Guide For (Top Layer - Bottom Layer)|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration7_Name15=OutputConfigurationParameter14
+Configuration7_Item15=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=DrillGuide|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration7_Name16=OutputConfigurationParameter15
+Configuration7_Item16=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration7_Name17=OutputConfigurationParameter16
+Configuration7_Item17=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration7_Name18=OutputConfigurationParameter17
+Configuration7_Item18=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration7_Name19=OutputConfigurationParameter18
+Configuration7_Item19=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration7_Name20=OutputConfigurationParameter19
+Configuration7_Item20=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical5|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration7_Name21=OutputConfigurationParameter20
+Configuration7_Item21=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration7_Name22=OutputConfigurationParameter21
+Configuration7_Item22=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration7_Name23=OutputConfigurationParameter22
+Configuration7_Item23=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration7_Name24=OutputConfigurationParameter23
+Configuration7_Item24=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+OutputType8=CompositeDrill
+OutputName8=Composite Drill Drawing
 OutputDocumentPath8=
-OutputVariantName8=
+OutputVariantName8=[No Variations]
 OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType9=Plane
-OutputName9=Power-Plane Prints
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType9=Board Stack Report
+OutputName9=Report Board Stack
 OutputDocumentPath9=
-OutputVariantName9=[No Variations]
+OutputVariantName9=
 OutputDefault9=0
-PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType10=Gerber X2
 OutputName10=Gerber X2 Files
 OutputDocumentPath10=
@@ -833,12 +815,469 @@ OutputDefault10=0
 Configuration10_Name1=ForceUpdateSettings
 Configuration10_Item1=False
 Configuration10_Name2=OutputConfigurationParameter1
-Configuration10_Item2=BoardID=RJHOKYIJ|FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=False|GenerateReports=True|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=True|MergePadAndRegion=False|MinusApertureTolerance=50|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OutputFormat=Single|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=True|PlotBoardProfileFileName= |PlotCounterHolesPairs=False|PlotDrillDrawingPairs=False|PlotDrillGuidePairs=False|PlotMicroViasPairs=False|PlotNPTHPair0_Backdrill=False|PlotNPTHPair0_Checked=True|PlotNPTHPair0_DrillType=Regular|PlotNPTHPair0_FileName= |PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPairs=False|PlotPTHPair0_Backdrill=False|PlotPTHPair0_Checked=True|PlotPTHPair0_DrillType=Regular|PlotPTHPair0_FileName= |PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPairs=False|PlotViaTypeDrillDrawingPairs=False|PlotViaTypeDrillGuidePairs=False|PlotViaTypeDrillPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16842751~1,16973830~1,16973831~1,16973834~1,16973835~1,16973832~1,16973833~1,16908289~1,16908290~1,16908291~1,16908292~1,16908293~1,16908294~1,16908295~1,16908297~1,16908298~1,16908299~1,16908300~1,16908301~1,16908302~1,16908303~1,16908304~1,16908307~1,16908308~1,16908309~1,16908296~1,16908305~1,16908306~1,16973837~1,16973848~1,16973849~1,16941055~1|PlusApertureTolerance=50|Record=GerberX2View|Sorted=False|UncheckPlotDrillDrawingPair0_Backdrill=False|UncheckPlotDrillDrawingPair0_Checked=False|UncheckPlotDrillDrawingPair0_DrillType=Regular|UncheckPlotDrillDrawingPair0_FileName= |UncheckPlotDrillDrawingPair0_HighLayer=Bottom Layer|UncheckPlotDrillDrawingPair0_LowLayer=Top Layer|UncheckPlotDrillGuidePair0_Backdrill=False|UncheckPlotDrillGuidePair0_Checked=False|UncheckPlotDrillGuidePair0_DrillType=Regular|UncheckPlotDrillGuidePair0_FileName= |UncheckPlotDrillGuidePair0_HighLayer=Bottom Layer|UncheckPlotDrillGuidePair0_LowLayer=Top Layer|DocumentPath=C:\Users\atgru\OneDrive\Documentos\GitHub\RT-IS\RT-IS\RT-IS.PcbDoc
-OutputType11=IPC2581
-OutputName11=IPC-2581 Files
+Configuration10_Item2=BoardID=UYZPVMYV|FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=True|GenerateReports=True|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=True|MergePadAndRegion=False|MinusApertureTolerance=50|NumberOfDecimals=6|OptimizeChangeLocationCommands=True|OutputFormat=Different|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=True|PlotBoardProfileFileName= |PlotCounterHolesPairs=False|PlotDrillDrawingPair0_Backdrill=False|PlotDrillDrawingPair0_Checked=True|PlotDrillDrawingPair0_DrillType=Regular|PlotDrillDrawingPair0_FileName= |PlotDrillDrawingPair0_HighLayer=Bottom Layer|PlotDrillDrawingPair0_LowLayer=Top Layer|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_Backdrill=False|PlotDrillGuidePair0_Checked=True|PlotDrillGuidePair0_DrillType=Regular|PlotDrillGuidePair0_FileName= |PlotDrillGuidePair0_HighLayer=Bottom Layer|PlotDrillGuidePair0_LowLayer=Top Layer|PlotDrillGuidePairs=False|PlotMicroViasPairs=False|PlotNPTHPair0_Backdrill=False|PlotNPTHPair0_Checked=True|PlotNPTHPair0_DrillType=Regular|PlotNPTHPair0_FileName= |PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPairs=False|PlotPTHPair0_Backdrill=False|PlotPTHPair0_Checked=True|PlotPTHPair0_DrillType=Regular|PlotPTHPair0_FileName= |PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPairs=False|PlotViaTypeDrillDrawingPairs=False|PlotViaTypeDrillGuidePairs=False|PlotViaTypeDrillPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16842753~1,16842754~1,16842751~1,16973830~1,16973834~1,16973835~1,16973832~1,16973833~1,16973848~1,16973849~1,16908292~1,16908299~1,16908289~1,16908290~1,16908291~1,16908293~1,16908294~1,16908301~1,16908303~1,16973831~1,16973837~1|PlusApertureTolerance=50|Record=GerberX2View|Sorted=False|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+OutputType11=Final
+OutputName11=Final Artwork Prints
 OutputDocumentPath11=
 OutputVariantName11=[No Variations]
 OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.34|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration11_Name1=ForceUpdateSettings
+Configuration11_Item1=False
+Configuration11_Name2=OutputConfigurationParameter1
+Configuration11_Item2=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name3=OutputConfigurationParameter2
+Configuration11_Item3=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Top Layer|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name4=OutputConfigurationParameter3
+Configuration11_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name5=OutputConfigurationParameter4
+Configuration11_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name6=OutputConfigurationParameter5
+Configuration11_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name7=OutputConfigurationParameter6
+Configuration11_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name8=OutputConfigurationParameter7
+Configuration11_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name9=OutputConfigurationParameter8
+Configuration11_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name10=OutputConfigurationParameter9
+Configuration11_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical5|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name11=OutputConfigurationParameter10
+Configuration11_Item11=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name12=OutputConfigurationParameter11
+Configuration11_Item12=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name13=OutputConfigurationParameter12
+Configuration11_Item13=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name14=OutputConfigurationParameter13
+Configuration11_Item14=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name15=OutputConfigurationParameter14
+Configuration11_Item15=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=1|Mirror=False|Name=Layer 1 (GND)|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name16=OutputConfigurationParameter15
+Configuration11_Item16=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=InternalPlane1|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name17=OutputConfigurationParameter16
+Configuration11_Item17=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name18=OutputConfigurationParameter17
+Configuration11_Item18=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name19=OutputConfigurationParameter18
+Configuration11_Item19=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name20=OutputConfigurationParameter19
+Configuration11_Item20=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name21=OutputConfigurationParameter20
+Configuration11_Item21=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical5|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name22=OutputConfigurationParameter21
+Configuration11_Item22=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name23=OutputConfigurationParameter22
+Configuration11_Item23=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name24=OutputConfigurationParameter23
+Configuration11_Item24=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name25=OutputConfigurationParameter24
+Configuration11_Item25=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=1|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name26=OutputConfigurationParameter25
+Configuration11_Item26=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=2|Mirror=False|Name=Layer 2 (GND)|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name27=OutputConfigurationParameter26
+Configuration11_Item27=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=InternalPlane2|Polygon=Full|PrintOutIndex=2|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name28=OutputConfigurationParameter27
+Configuration11_Item28=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=2|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name29=OutputConfigurationParameter28
+Configuration11_Item29=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=2|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name30=OutputConfigurationParameter29
+Configuration11_Item30=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=2|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name31=OutputConfigurationParameter30
+Configuration11_Item31=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=2|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name32=OutputConfigurationParameter31
+Configuration11_Item32=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical5|Polygon=Full|PrintOutIndex=2|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name33=OutputConfigurationParameter32
+Configuration11_Item33=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=2|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name34=OutputConfigurationParameter33
+Configuration11_Item34=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=2|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name35=OutputConfigurationParameter34
+Configuration11_Item35=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=2|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name36=OutputConfigurationParameter35
+Configuration11_Item36=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=2|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name37=OutputConfigurationParameter36
+Configuration11_Item37=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=3|Mirror=False|Name=Bottom Layer|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name38=OutputConfigurationParameter37
+Configuration11_Item38=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name39=OutputConfigurationParameter38
+Configuration11_Item39=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomLayer|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name40=OutputConfigurationParameter39
+Configuration11_Item40=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name41=OutputConfigurationParameter40
+Configuration11_Item41=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name42=OutputConfigurationParameter41
+Configuration11_Item42=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name43=OutputConfigurationParameter42
+Configuration11_Item43=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name44=OutputConfigurationParameter43
+Configuration11_Item44=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical5|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name45=OutputConfigurationParameter44
+Configuration11_Item45=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name46=OutputConfigurationParameter45
+Configuration11_Item46=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name47=OutputConfigurationParameter46
+Configuration11_Item47=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name48=OutputConfigurationParameter47
+Configuration11_Item48=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=3|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name49=OutputConfigurationParameter48
+Configuration11_Item49=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=4|Mirror=False|Name=Top Silkscreen Overlay|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name50=OutputConfigurationParameter49
+Configuration11_Item50=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopOverlay|Polygon=Full|PrintOutIndex=4|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name51=OutputConfigurationParameter50
+Configuration11_Item51=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=4|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name52=OutputConfigurationParameter51
+Configuration11_Item52=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=4|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name53=OutputConfigurationParameter52
+Configuration11_Item53=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=4|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name54=OutputConfigurationParameter53
+Configuration11_Item54=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=4|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name55=OutputConfigurationParameter54
+Configuration11_Item55=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical5|Polygon=Full|PrintOutIndex=4|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name56=OutputConfigurationParameter55
+Configuration11_Item56=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=4|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name57=OutputConfigurationParameter56
+Configuration11_Item57=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=4|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name58=OutputConfigurationParameter57
+Configuration11_Item58=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=4|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name59=OutputConfigurationParameter58
+Configuration11_Item59=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=4|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name60=OutputConfigurationParameter59
+Configuration11_Item60=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=5|Mirror=False|Name=Top Paste Mask Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name61=OutputConfigurationParameter60
+Configuration11_Item61=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopPaste|Polygon=Full|PrintOutIndex=5|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name62=OutputConfigurationParameter61
+Configuration11_Item62=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=5|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name63=OutputConfigurationParameter62
+Configuration11_Item63=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=5|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name64=OutputConfigurationParameter63
+Configuration11_Item64=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=5|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name65=OutputConfigurationParameter64
+Configuration11_Item65=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=5|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name66=OutputConfigurationParameter65
+Configuration11_Item66=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical5|Polygon=Full|PrintOutIndex=5|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name67=OutputConfigurationParameter66
+Configuration11_Item67=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=5|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name68=OutputConfigurationParameter67
+Configuration11_Item68=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=5|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name69=OutputConfigurationParameter68
+Configuration11_Item69=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=5|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name70=OutputConfigurationParameter69
+Configuration11_Item70=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=5|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name71=OutputConfigurationParameter70
+Configuration11_Item71=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=6|Mirror=False|Name=Top Solder Mask Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name72=OutputConfigurationParameter71
+Configuration11_Item72=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopSolder|Polygon=Full|PrintOutIndex=6|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name73=OutputConfigurationParameter72
+Configuration11_Item73=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=6|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name74=OutputConfigurationParameter73
+Configuration11_Item74=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=6|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name75=OutputConfigurationParameter74
+Configuration11_Item75=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=6|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name76=OutputConfigurationParameter75
+Configuration11_Item76=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=6|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name77=OutputConfigurationParameter76
+Configuration11_Item77=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical5|Polygon=Full|PrintOutIndex=6|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name78=OutputConfigurationParameter77
+Configuration11_Item78=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=6|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name79=OutputConfigurationParameter78
+Configuration11_Item79=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=6|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name80=OutputConfigurationParameter79
+Configuration11_Item80=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=6|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name81=OutputConfigurationParameter80
+Configuration11_Item81=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=6|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name82=OutputConfigurationParameter81
+Configuration11_Item82=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=7|Mirror=False|Name=Bottom Solder Mask Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name83=OutputConfigurationParameter82
+Configuration11_Item83=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomSolder|Polygon=Full|PrintOutIndex=7|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name84=OutputConfigurationParameter83
+Configuration11_Item84=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=7|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name85=OutputConfigurationParameter84
+Configuration11_Item85=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=7|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name86=OutputConfigurationParameter85
+Configuration11_Item86=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=7|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name87=OutputConfigurationParameter86
+Configuration11_Item87=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=7|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name88=OutputConfigurationParameter87
+Configuration11_Item88=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical5|Polygon=Full|PrintOutIndex=7|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name89=OutputConfigurationParameter88
+Configuration11_Item89=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=7|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name90=OutputConfigurationParameter89
+Configuration11_Item90=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=7|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name91=OutputConfigurationParameter90
+Configuration11_Item91=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=7|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name92=OutputConfigurationParameter91
+Configuration11_Item92=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=7|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name93=OutputConfigurationParameter92
+Configuration11_Item93=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=8|Mirror=False|Name=Mechanical 1|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name94=OutputConfigurationParameter93
+Configuration11_Item94=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=8|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name95=OutputConfigurationParameter94
+Configuration11_Item95=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=8|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name96=OutputConfigurationParameter95
+Configuration11_Item96=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=8|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name97=OutputConfigurationParameter96
+Configuration11_Item97=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=8|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name98=OutputConfigurationParameter97
+Configuration11_Item98=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical5|Polygon=Full|PrintOutIndex=8|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name99=OutputConfigurationParameter98
+Configuration11_Item99=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=8|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name100=OutputConfigurationParameter99
+Configuration11_Item100=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=8|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name101=OutputConfigurationParameter100
+Configuration11_Item101=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=8|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name102=OutputConfigurationParameter101
+Configuration11_Item102=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=8|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name103=OutputConfigurationParameter102
+Configuration11_Item103=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=9|Mirror=False|Name=Board|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name104=OutputConfigurationParameter103
+Configuration11_Item104=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=9|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name105=OutputConfigurationParameter104
+Configuration11_Item105=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=9|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name106=OutputConfigurationParameter105
+Configuration11_Item106=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=9|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name107=OutputConfigurationParameter106
+Configuration11_Item107=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=9|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name108=OutputConfigurationParameter107
+Configuration11_Item108=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical5|Polygon=Full|PrintOutIndex=9|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name109=OutputConfigurationParameter108
+Configuration11_Item109=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=9|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name110=OutputConfigurationParameter109
+Configuration11_Item110=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=9|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name111=OutputConfigurationParameter110
+Configuration11_Item111=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=9|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name112=OutputConfigurationParameter111
+Configuration11_Item112=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=9|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name113=OutputConfigurationParameter112
+Configuration11_Item113=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=10|Mirror=False|Name=Dimensions|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name114=OutputConfigurationParameter113
+Configuration11_Item114=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=10|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name115=OutputConfigurationParameter114
+Configuration11_Item115=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=10|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name116=OutputConfigurationParameter115
+Configuration11_Item116=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=10|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name117=OutputConfigurationParameter116
+Configuration11_Item117=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=10|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name118=OutputConfigurationParameter117
+Configuration11_Item118=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical5|Polygon=Full|PrintOutIndex=10|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name119=OutputConfigurationParameter118
+Configuration11_Item119=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=10|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name120=OutputConfigurationParameter119
+Configuration11_Item120=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=10|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name121=OutputConfigurationParameter120
+Configuration11_Item121=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=10|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name122=OutputConfigurationParameter121
+Configuration11_Item122=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=10|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name123=OutputConfigurationParameter122
+Configuration11_Item123=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=11|Mirror=False|Name=Top Tenting|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name124=OutputConfigurationParameter123
+Configuration11_Item124=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=11|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name125=OutputConfigurationParameter124
+Configuration11_Item125=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=11|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name126=OutputConfigurationParameter125
+Configuration11_Item126=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=11|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name127=OutputConfigurationParameter126
+Configuration11_Item127=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=11|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name128=OutputConfigurationParameter127
+Configuration11_Item128=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical5|Polygon=Full|PrintOutIndex=11|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name129=OutputConfigurationParameter128
+Configuration11_Item129=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=11|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name130=OutputConfigurationParameter129
+Configuration11_Item130=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=11|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name131=OutputConfigurationParameter130
+Configuration11_Item131=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=11|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name132=OutputConfigurationParameter131
+Configuration11_Item132=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=11|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name133=OutputConfigurationParameter132
+Configuration11_Item133=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=12|Mirror=False|Name=Top Courtyard|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name134=OutputConfigurationParameter133
+Configuration11_Item134=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical5|Polygon=Full|PrintOutIndex=12|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name135=OutputConfigurationParameter134
+Configuration11_Item135=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=12|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name136=OutputConfigurationParameter135
+Configuration11_Item136=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=12|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name137=OutputConfigurationParameter136
+Configuration11_Item137=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=12|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name138=OutputConfigurationParameter137
+Configuration11_Item138=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=12|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name139=OutputConfigurationParameter138
+Configuration11_Item139=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=12|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name140=OutputConfigurationParameter139
+Configuration11_Item140=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=12|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name141=OutputConfigurationParameter140
+Configuration11_Item141=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=12|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name142=OutputConfigurationParameter141
+Configuration11_Item142=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=12|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name143=OutputConfigurationParameter142
+Configuration11_Item143=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=13|Mirror=False|Name=Top Assembly|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name144=OutputConfigurationParameter143
+Configuration11_Item144=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=13|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name145=OutputConfigurationParameter144
+Configuration11_Item145=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=13|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name146=OutputConfigurationParameter145
+Configuration11_Item146=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=13|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name147=OutputConfigurationParameter146
+Configuration11_Item147=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=13|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name148=OutputConfigurationParameter147
+Configuration11_Item148=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=13|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name149=OutputConfigurationParameter148
+Configuration11_Item149=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical5|Polygon=Full|PrintOutIndex=13|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name150=OutputConfigurationParameter149
+Configuration11_Item150=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=13|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name151=OutputConfigurationParameter150
+Configuration11_Item151=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=13|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name152=OutputConfigurationParameter151
+Configuration11_Item152=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=13|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name153=OutputConfigurationParameter152
+Configuration11_Item153=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=14|Mirror=False|Name=Bottom Tenting|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name154=OutputConfigurationParameter153
+Configuration11_Item154=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=14|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name155=OutputConfigurationParameter154
+Configuration11_Item155=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=14|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name156=OutputConfigurationParameter155
+Configuration11_Item156=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=14|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name157=OutputConfigurationParameter156
+Configuration11_Item157=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=14|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name158=OutputConfigurationParameter157
+Configuration11_Item158=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=14|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name159=OutputConfigurationParameter158
+Configuration11_Item159=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical5|Polygon=Full|PrintOutIndex=14|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name160=OutputConfigurationParameter159
+Configuration11_Item160=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=14|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name161=OutputConfigurationParameter160
+Configuration11_Item161=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=14|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name162=OutputConfigurationParameter161
+Configuration11_Item162=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=14|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name163=OutputConfigurationParameter162
+Configuration11_Item163=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=15|Mirror=False|Name=Mechanical 13|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name164=OutputConfigurationParameter163
+Configuration11_Item164=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=15|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name165=OutputConfigurationParameter164
+Configuration11_Item165=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=15|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name166=OutputConfigurationParameter165
+Configuration11_Item166=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=15|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name167=OutputConfigurationParameter166
+Configuration11_Item167=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=15|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name168=OutputConfigurationParameter167
+Configuration11_Item168=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=15|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name169=OutputConfigurationParameter168
+Configuration11_Item169=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical5|Polygon=Full|PrintOutIndex=15|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name170=OutputConfigurationParameter169
+Configuration11_Item170=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=15|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name171=OutputConfigurationParameter170
+Configuration11_Item171=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=15|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name172=OutputConfigurationParameter171
+Configuration11_Item172=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=15|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name173=OutputConfigurationParameter172
+Configuration11_Item173=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=16|Mirror=False|Name=Mechanical 15|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name174=OutputConfigurationParameter173
+Configuration11_Item174=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=16|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name175=OutputConfigurationParameter174
+Configuration11_Item175=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=16|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name176=OutputConfigurationParameter175
+Configuration11_Item176=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=16|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name177=OutputConfigurationParameter176
+Configuration11_Item177=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=16|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name178=OutputConfigurationParameter177
+Configuration11_Item178=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=16|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name179=OutputConfigurationParameter178
+Configuration11_Item179=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical5|Polygon=Full|PrintOutIndex=16|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name180=OutputConfigurationParameter179
+Configuration11_Item180=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=16|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name181=OutputConfigurationParameter180
+Configuration11_Item181=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=16|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name182=OutputConfigurationParameter181
+Configuration11_Item182=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=16|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name183=OutputConfigurationParameter182
+Configuration11_Item183=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=17|Mirror=False|Name=Top Pad Master|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name184=OutputConfigurationParameter183
+Configuration11_Item184=CArc=Hidden|CFill=Hidden|Comment=Hidden|Coordinate=Hidden|CPad=Full|CRegion=Hidden|CText=Hidden|CTrack=Hidden|CVia=Hidden|Designator=Hidden|Dimension=Hidden|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Hidden|FFill=Hidden|FPad=Full|FRegion=Hidden|FText=Hidden|FTrack=Hidden|FVia=Hidden|Layer=MultiLayer|Polygon=Hidden|PrintOutIndex=17|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name185=OutputConfigurationParameter184
+Configuration11_Item185=CArc=Hidden|CFill=Hidden|Comment=Hidden|Coordinate=Hidden|CPad=Full|CRegion=Hidden|CText=Hidden|CTrack=Hidden|CVia=Hidden|Designator=Hidden|Dimension=Hidden|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Hidden|FFill=Hidden|FPad=Full|FRegion=Hidden|FText=Hidden|FTrack=Hidden|FVia=Hidden|Layer=TopLayer|Polygon=Hidden|PrintOutIndex=17|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name186=OutputConfigurationParameter185
+Configuration11_Item186=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=17|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name187=OutputConfigurationParameter186
+Configuration11_Item187=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=17|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name188=OutputConfigurationParameter187
+Configuration11_Item188=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=17|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name189=OutputConfigurationParameter188
+Configuration11_Item189=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=17|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name190=OutputConfigurationParameter189
+Configuration11_Item190=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical5|Polygon=Full|PrintOutIndex=17|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name191=OutputConfigurationParameter190
+Configuration11_Item191=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=17|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name192=OutputConfigurationParameter191
+Configuration11_Item192=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=17|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name193=OutputConfigurationParameter192
+Configuration11_Item193=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=17|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name194=OutputConfigurationParameter193
+Configuration11_Item194=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=17|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name195=OutputConfigurationParameter194
+Configuration11_Item195=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=18|Mirror=False|Name=Bottom Pad Master|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name196=OutputConfigurationParameter195
+Configuration11_Item196=CArc=Hidden|CFill=Hidden|Comment=Hidden|Coordinate=Hidden|CPad=Full|CRegion=Hidden|CText=Hidden|CTrack=Hidden|CVia=Hidden|Designator=Hidden|Dimension=Hidden|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Hidden|FFill=Hidden|FPad=Full|FRegion=Hidden|FText=Hidden|FTrack=Hidden|FVia=Hidden|Layer=MultiLayer|Polygon=Hidden|PrintOutIndex=18|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name197=OutputConfigurationParameter196
+Configuration11_Item197=CArc=Hidden|CFill=Hidden|Comment=Hidden|Coordinate=Hidden|CPad=Full|CRegion=Hidden|CText=Hidden|CTrack=Hidden|CVia=Hidden|Designator=Hidden|Dimension=Hidden|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Hidden|FFill=Hidden|FPad=Full|FRegion=Hidden|FText=Hidden|FTrack=Hidden|FVia=Hidden|Layer=BottomLayer|Polygon=Hidden|PrintOutIndex=18|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name198=OutputConfigurationParameter197
+Configuration11_Item198=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=18|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name199=OutputConfigurationParameter198
+Configuration11_Item199=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=18|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name200=OutputConfigurationParameter199
+Configuration11_Item200=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=18|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name201=OutputConfigurationParameter200
+Configuration11_Item201=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=18|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name202=OutputConfigurationParameter201
+Configuration11_Item202=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical5|Polygon=Full|PrintOutIndex=18|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name203=OutputConfigurationParameter202
+Configuration11_Item203=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=18|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name204=OutputConfigurationParameter203
+Configuration11_Item204=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=18|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name205=OutputConfigurationParameter204
+Configuration11_Item205=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=18|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name206=OutputConfigurationParameter205
+Configuration11_Item206=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=18|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name207=OutputConfigurationParameter206
+Configuration11_Item207=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=19|Mirror=False|Name=Drill Drawing For (Top Layer - Bottom Layer)|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name208=OutputConfigurationParameter207
+Configuration11_Item208=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=DrillDrawing|Polygon=Full|PrintOutIndex=19|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name209=OutputConfigurationParameter208
+Configuration11_Item209=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=19|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name210=OutputConfigurationParameter209
+Configuration11_Item210=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=19|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name211=OutputConfigurationParameter210
+Configuration11_Item211=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=19|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name212=OutputConfigurationParameter211
+Configuration11_Item212=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=19|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name213=OutputConfigurationParameter212
+Configuration11_Item213=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical5|Polygon=Full|PrintOutIndex=19|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name214=OutputConfigurationParameter213
+Configuration11_Item214=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=19|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name215=OutputConfigurationParameter214
+Configuration11_Item215=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=19|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name216=OutputConfigurationParameter215
+Configuration11_Item216=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=19|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name217=OutputConfigurationParameter216
+Configuration11_Item217=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=19|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name218=OutputConfigurationParameter217
+Configuration11_Item218=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=20|Mirror=False|Name=Drill Guide For (Top Layer - Bottom Layer)|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name219=OutputConfigurationParameter218
+Configuration11_Item219=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=DrillGuide|Polygon=Full|PrintOutIndex=20|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name220=OutputConfigurationParameter219
+Configuration11_Item220=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=20|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name221=OutputConfigurationParameter220
+Configuration11_Item221=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=20|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name222=OutputConfigurationParameter221
+Configuration11_Item222=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical3|Polygon=Full|PrintOutIndex=20|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name223=OutputConfigurationParameter222
+Configuration11_Item223=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=20|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name224=OutputConfigurationParameter223
+Configuration11_Item224=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical5|Polygon=Full|PrintOutIndex=20|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name225=OutputConfigurationParameter224
+Configuration11_Item225=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical6|Polygon=Full|PrintOutIndex=20|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name226=OutputConfigurationParameter225
+Configuration11_Item226=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical11|Polygon=Full|PrintOutIndex=20|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name227=OutputConfigurationParameter226
+Configuration11_Item227=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=20|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
+Configuration11_Name228=OutputConfigurationParameter227
+Configuration11_Item228=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical15|Polygon=Full|PrintOutIndex=20|Record=PcbPrintLayer|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
 OutputType12=Gerber
 OutputName12=Gerber Files
 OutputDocumentPath12=
@@ -847,129 +1286,115 @@ OutputDefault12=0
 Configuration12_Name1=ForceUpdateSettings
 Configuration12_Item1=False
 Configuration12_Name2=OutputConfigurationParameter1
-Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|BoardID=UYZPVMYV|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=True|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|OutputFormat=Different|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16973835~1,16973833~1,16973848~1,16973849~1,16908289~1,16908290~1,16908293~1,16908294~1,16908301~1,16908303~1,16777217~1,16842753~1,16842754~1,16842751~1,16908291~1|PlotBoardProfile=True|PlotBoardProfileFileName= |PlotDrillDrawingLayerPair0_Backdrill=False|PlotDrillDrawingLayerPair0_Checked=True|PlotDrillDrawingLayerPair0_DrillType=Regular|PlotDrillDrawingLayerPair0_FileName= |PlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|PlotDrillDrawingLayerPair0_LowLayer=Top Layer|PlotDrillGuideLayerPair0_Backdrill=False|PlotDrillGuideLayerPair0_Checked=True|PlotDrillGuideLayerPair0_DrillType=Regular|PlotDrillGuideLayerPair0_FileName= |PlotDrillGuideLayerPair0_HighLayer=Bottom Layer|PlotDrillGuideLayerPair0_LowLayer=Top Layer|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=True|Sorted=False|Sorted=False|DocumentPath=C:\Users\atgru\OneDrive\Documentos\GitHub\RT-IS\RT-IS\RT-IS_M7_L4.PcbDoc
+Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|BoardID=UYZPVMYV|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=True|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|OutputFormat=Different|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16842753~1,16842754~1,16842751~1,16973830~1,16973834~1,16973835~1,16973832~1,16973833~1,16908289~1,16908290~1,16908293~1,16908294~1,16908301~1,16908303~1,16908292~1,16908299~1,16973848~1,16973849~1|PlotBoardProfile=True|PlotBoardProfileFileName= |PlotDrillDrawingLayerPair0_Backdrill=False|PlotDrillDrawingLayerPair0_Checked=True|PlotDrillDrawingLayerPair0_DrillType=Regular|PlotDrillDrawingLayerPair0_FileName= |PlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|PlotDrillDrawingLayerPair0_LowLayer=Top Layer|PlotDrillGuideLayerPair0_Backdrill=False|PlotDrillGuideLayerPair0_Checked=True|PlotDrillGuideLayerPair0_DrillType=Regular|PlotDrillGuideLayerPair0_FileName= |PlotDrillGuideLayerPair0_HighLayer=Bottom Layer|PlotDrillGuideLayerPair0_LowLayer=Top Layer|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=C:\Users\atgru\OneDrive\Escritorio\PC104-M7\PC104_M7_4L.PcbDoc
 
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=HP LaserJet Pro MFP M125-M126 PCLmS
+TargetPrinter=Brother DCP-9015CDW
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Script
-OutputName1=Script Output
+OutputType1=BOM_PartType
+OutputName1=Bill of Materials
 OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
-OutputType2=SimpleBOM
-OutputName2=Simple BOM
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType2=BOM_ReportCompare
+OutputName2=BOM Compare
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
-OutputType3=SinglePinNetReporter
-OutputName3=Report Single Pin Nets
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType3=ComponentCrossReference
+OutputName3=Component Cross Reference Report
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
-OutputType4=BOM_PartType
-OutputName4=Bill of Materials
+OutputType4=Export Comments
+OutputName4=Export Comments
 OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-Configuration4_Name1=Filter
-Configuration4_Item1=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
-Configuration4_Name2=ForceUpdateSettings
-Configuration4_Item2=False
-Configuration4_Name3=General
-Configuration4_Item3=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|IncludePCBData=False|IncludeVaultData=False|ShowExportOptions=True|TemplateFilename=|BatchMode=5|FormWidth=1381|FormHeight=649|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
-Configuration4_Name4=GroupOrder
-Configuration4_Item4=Comment=True|Footprint=True
-Configuration4_Name5=OutputConfigurationParameter1
-Configuration4_Item5=upplier 1=118|Supplier Part Number 1=165|Supplier Unit Price 1=173|Quantity=129
-Configuration4_Name6=SortOrder
-Configuration4_Item6=Designator=Up|Comment=Up|Footprint=Up
-Configuration4_Name7=VisibleOrder
-Configuration4_Item7=Description=100|Designator=100|Manufacturer 1=100|Manufacturer Part Number 1=100|Quantity=100|Supplier 1=100|Supplier Part Number 1=100|Supplier Unit Price 1=100
-OutputType5=ComponentCrossReference
-OutputName5=Component Cross Reference Report
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType5=Project History
+OutputName5=Project History
 OutputDocumentPath5=
 OutputVariantName5=[No Variations]
 OutputDefault5=0
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType6=ReportHierarchy
 OutputName6=Report Project Hierarchy
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=BOM_ReportCompare
-OutputName7=BOM Compare
+OutputType7=Script
+OutputName7=Script Output
 OutputDocumentPath7=
 OutputVariantName7=[No Variations]
 OutputDefault7=0
-PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType8=Export Comments
-OutputName8=Export Comments
+OutputType8=SimpleBOM
+OutputName8=Simple BOM
 OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType9=Project History
-OutputName9=Project History
+OutputType9=SinglePinNetReporter
+OutputName9=Report Single Pin Nets
 OutputDocumentPath9=
 OutputVariantName9=[No Variations]
 OutputDefault9=0
-PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=HP LaserJet Pro MFP M125-M126 PCLmS
+TargetPrinter=Brother DCP-9015CDW
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=HP LaserJet Pro MFP M125-M126 PCLmS
+TargetPrinter=Brother DCP-9015CDW
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Design Rules Check
-OutputName1=Design Rules Check
+OutputType1=BOM_Violations
+OutputName1=BOM Checks Report
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType2=Electrical Rules Check
-OutputName2=Electrical Rules Check
+OutputType2=Component states check
+OutputName2=Server's components states check
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType3=Configuration compliance
 OutputName3=Environment configuration compliance check
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-OutputType4=Differences Report
-OutputName4=Differences Report
+OutputType4=Design Rules Check
+OutputName4=Design Rules Check
 OutputDocumentPath4=
 OutputVariantName4=
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType5=Footprint Comparison Report
-OutputName5=Footprint Comparison Report
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType5=Differences Report
+OutputName5=Differences Report
 OutputDocumentPath5=
 OutputVariantName5=
 OutputDefault5=0
-OutputType6=Component states check
-OutputName6=Vault's components states check
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType6=Electrical Rules Check
+OutputName6=Electrical Rules Check
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
-OutputType7=BOM_Violations
-OutputName7=BOM Checks Report
+PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType7=Footprint Comparison Report
+OutputName7=Footprint Comparison Report
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
@@ -977,7 +1402,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=HP LaserJet Pro MFP M125-M126 PCLmS
+TargetPrinter=Brother DCP-9015CDW
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -994,13 +1419,13 @@ OutputName3=Export IDF
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-OutputType4=ExportSTEP
-OutputName4=Export STEP
+OutputType4=ExportPARASOLID
+OutputName4=Export PARASOLID
 OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
-OutputType5=ExportPARASOLID
-OutputName5=Export PARASOLID
+OutputType5=ExportSTEP
+OutputName5=Export STEP
 OutputDocumentPath5=
 OutputVariantName5=[No Variations]
 OutputDefault5=0
@@ -1009,28 +1434,28 @@ OutputName6=Export VRML
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=Save As/Export PCB
-OutputName7=Save As/Export PCB
+OutputType7=MBAExportPARASOLID
+OutputName7=Export PARASOLID
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
-OutputType8=Save As/Export Schematic
-OutputName8=Save As/Export Schematic
+OutputType8=MBAExportSTEP
+OutputName8=Export STEP
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-OutputType9=Specctra Design PCB
-OutputName9=Specctra Design PCB
+OutputType9=Save As/Export PCB
+OutputName9=Save As/Export PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=MBAExportPARASOLID
-OutputName10=Export PARASOLID
+OutputType10=Save As/Export Schematic
+OutputName10=Save As/Export Schematic
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-OutputType11=MBAExportSTEP
-OutputName11=Export STEP
+OutputType11=Specctra Design PCB
+OutputName11=Specctra Design PCB
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
@@ -1043,7 +1468,7 @@ OutputDefault12=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=HP LaserJet Pro MFP M125-M126 PCLmS
+TargetPrinter=Brother DCP-9015CDW
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -1298,8 +1723,8 @@ Type8=1
 Type9=1
 Type10=1
 Type11=2
-Type12=0
-Type13=0
+Type12=2
+Type13=2
 Type14=1
 Type15=1
 Type16=1
@@ -1343,9 +1768,9 @@ Type53=1
 Type54=1
 Type55=1
 Type56=2
-Type57=2
-Type58=2
-Type59=3
+Type57=1
+Type58=1
+Type59=2
 Type60=0
 Type61=0
 Type62=0
@@ -1355,7 +1780,7 @@ Type65=2
 Type66=3
 Type67=2
 Type68=2
-Type69=1
+Type69=0
 Type70=2
 Type71=2
 Type72=2
@@ -1396,7 +1821,7 @@ Type106=2
 Type107=2
 Type108=2
 Type109=1
-Type110=0
+Type110=1
 Type111=1
 Type112=1
 Type113=1
@@ -1469,105 +1894,9 @@ MatchParameter1=Comment
 MatchStrictly1=1
 MatchParameter2=Library Reference
 MatchStrictly2=1
-PhysicalNamingFormat=$ComponentPrefix$SheetNumber$ComponentIndex
-GlobalIndexSortOrder=1
+PhysicalNamingFormat=$Component_$RoomName
+GlobalIndexSortOrder=3
 GlobalIndexSortLocation=0
-UniqueIDPath0=
-DocumentName0=MCU.SchDoc
-IsEnabled0=1
-SelectionScope0=All
-Order0=7
-IndexEnabled0=0
-IndexStartValue0=1
-Suffix0=
-UniqueIDPath1=
-DocumentName1=GENERAL.SchDoc
-IsEnabled1=1
-SelectionScope1=All
-Order1=6
-IndexEnabled1=0
-IndexStartValue1=1
-Suffix1=
-UniqueIDPath2=
-DocumentName2=ExternalConnectors.SchDoc
-IsEnabled2=1
-SelectionScope2=All
-Order2=4
-IndexEnabled2=0
-IndexStartValue2=1
-Suffix2=
-UniqueIDPath3=
-DocumentName3=MemoryStorage.SchDoc
-IsEnabled3=1
-SelectionScope3=All
-Order3=8
-IndexEnabled3=0
-IndexStartValue3=1
-Suffix3=
-UniqueIDPath4=
-DocumentName4=RF.SchDoc
-IsEnabled4=1
-SelectionScope4=All
-Order4=10
-IndexEnabled4=0
-IndexStartValue4=1
-Suffix4=
-UniqueIDPath5=
-DocumentName5=BoardConnectors.SchDoc
-IsEnabled5=1
-SelectionScope5=All
-Order5=2
-IndexEnabled5=0
-IndexStartValue5=1
-Suffix5=
-UniqueIDPath6=
-DocumentName6=RS485.SchDoc
-IsEnabled6=1
-SelectionScope6=All
-Order6=11
-IndexEnabled6=0
-IndexStartValue6=1
-Suffix6=
-UniqueIDPath7=
-DocumentName7=TempSensors.SchDoc
-IsEnabled7=1
-SelectionScope7=All
-Order7=12
-IndexEnabled7=0
-IndexStartValue7=1
-Suffix7=
-UniqueIDPath8=
-DocumentName8=AOCS.SchDoc
-IsEnabled8=1
-SelectionScope8=All
-Order8=1
-IndexEnabled8=0
-IndexStartValue8=1
-Suffix8=
-UniqueIDPath9=
-DocumentName9=FPGA.SchDoc
-IsEnabled9=1
-SelectionScope9=All
-Order9=5
-IndexEnabled9=0
-IndexStartValue9=1
-Suffix9=
-UniqueIDPath10=
-DocumentName10=CAN.SchDoc
-IsEnabled10=1
-SelectionScope10=All
-Order10=3
-IndexEnabled10=0
-IndexStartValue10=1
-Suffix10=
-UniqueIDPath11=
-DocumentName11=Power.SchDoc
-IsEnabled11=1
-SelectionScope11=All
-Order11=9
-IndexEnabled11=0
-IndexStartValue11=1
-Suffix11=
 
 [PrjClassGen]
 CompClassManualEnabled=0
@@ -1579,16 +1908,10 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=1
+SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
-ComponentLibIdentifierKind0=Any
-ComponentLibraryIdentifier0=
-ComponentDesignItemID0=10118194-0001LF
-ComponentSymbolReference0=10118194-0001LF
-ComponentUpdate0=1
-ComponentIsDeviceSheet0=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1602,35 +1925,6 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Arrow Part Number
-ParameterUpdate0=1
-ParameterName1=Arrow Price/Stock
-ParameterUpdate1=1
-ParameterName2=Comment
-ParameterUpdate2=1
-ParameterName3=Component Kind
-ParameterUpdate3=1
-ParameterName4=Datasheet Link
-ParameterUpdate4=1
-ParameterName5=Description
-ParameterUpdate5=1
-ParameterName6=Height
-ParameterUpdate6=1
-ParameterName7=Library Reference
-ParameterUpdate7=1
-ParameterName8=Manufacturer_Name
-ParameterUpdate8=1
-ParameterName9=Manufacturer_Part_Number
-ParameterUpdate9=1
-ParameterName10=Mouser Part Number
-ParameterUpdate10=1
-ParameterName11=Mouser Price/Stock
-ParameterUpdate11=1
-ModelTypeGroup0=PCBLIB
-ModelTypeUpdate0=1
-ModelType0=PCBLIB
-ModelName0=101181940001LF
-ModelUpdate0=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -1642,14 +1936,10 @@ PartTypes=0
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
 ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
 ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
-ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
-ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|UseName=-1|InclAllRules=0
+ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
+ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|UseName=0|InclAllRules=0
 ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
-ComparisonOptions6=Kind=xSignal|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
-ComparisonOptions7=Kind=xSignal Class|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
-ComparisonOptions8=Kind=xNet|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
-ComparisonOptions9=Kind=xNet Class|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
 
 [SmartPDF]
-PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
